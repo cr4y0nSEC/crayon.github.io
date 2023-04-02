@@ -1,0 +1,43 @@
+
+/* 设置侧边栏的效果 */
+.slider {
+    width: 135px;
+    height: 753px;
+    background-color: rgb(73, 72, 72);
+    /* 设置绝对定位，将侧边栏固定在页面上的左边区域 */
+    position: absolute;
+    /* 330像素正好将侧边栏与主体区域的顶部对齐 */
+    top: 390px;
+}
+
+/* 为返回顶部的span标签设置样式 */
+.goBack {
+    /* 让“返回顶部”文字显示在最下面 */
+    position: absolute;
+    bottom: 0;
+    /* 将其先隐藏 */
+    display: none;
+    font-size: 20px;
+    left: 30px;
+    color: rgb(222, 219, 219);
+    font-weight: 900
+}
+.goBack:hover{
+    color: #a5a5a5;
+}
+
+/* 原来的颜色 */
+.slider a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(222, 219, 219);
+    display: block;
+    font-weight: 900;
+    top: 500px;
+    text-align: center;
+}
+/* 鼠标放上去时变色 */
+.slider a:hover {
+    color: #a5a5a5;
+}
